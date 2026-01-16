@@ -100,7 +100,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     onPressed: () => Navigator.pop(context),
                   ),
                   const Text(
-                    "Profile photo",
+                    "Profile images",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                   if (_profileImage != null)
