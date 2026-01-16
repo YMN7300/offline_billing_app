@@ -532,6 +532,12 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         const SizedBox(width: 20),
+                        Expanded(
+                          child: CustomTextField(
+                            labelText: 'City',
+                            controller: _cityController,
+                          ),
+                        ),
                       ],
                     ),
                     sizedBox20(),
