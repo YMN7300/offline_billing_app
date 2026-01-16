@@ -1,16 +1,38 @@
-# offline_billing
+# 🧾 Offline Billing App
 
-A new Flutter project.
+A simple **offline billing application** built using **Flutter**.  
+This app lets you create and manage bills, invoices, and basic inventory — all without internet connection.
 
-## Getting Started
+## 📌 Features
 
-This project is a starting point for a Flutter application.
+- 📝 Create and manage bills
+- 💰 Add products and quantities
+- 📁 Offline data storage (no internet needed)
+- 📦 Organize purchases & sales
+- 📊 View list of transactions
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Built with:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter (Dart)
+- SQLite / Local storage
+- Android & iOS support
+- Flutter packages:
+  - provider / sqflite (if used in your project) *(edit as needed)*
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Flutter SDK installed
+- Android Studio / VS Code
+- A connected Android device or emulator
+
+### Install & Run
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YMN7300/offline_billing_app.git
