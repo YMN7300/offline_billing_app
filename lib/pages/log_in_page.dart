@@ -69,22 +69,10 @@ class LogInPage extends StatelessWidget {
                 const SizedBox(height: 30),
                 ElevatedButton(
                   onPressed: () {
-                    final email = emailController.text.trim();
-                    final password = passwordController.text.trim();
-
-                    if (email == "admin" && password == "admin") {
-                      Navigator.pushReplacementNamed(
-                        context,
-                        "bottom_navigation_page",
-                      );
-                    } else {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text("Email or password is incorrect"),
-                          backgroundColor: Colors.red,
-                        ),
-                      );
-                    }
+                    Navigator.pushReplacementNamed(
+                      context,
+                      "bottom_navigation_page",
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     fixedSize: const Size(320, 50),
